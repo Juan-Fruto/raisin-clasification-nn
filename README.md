@@ -14,13 +14,14 @@ This repository contains Python code for building and training a neural network 
 2. Install the required dependencies:
 
    ```bash
-   pip install tensorflow scikit-learn pandas matplotlib
+   pip install tensorflow scikit-learn pandas matplotlib seaborn statistics tabulate
    ```
 
 3. Run the code:
 
    ```bash
    python transform_dataset.py
+   python distribution.py
    python main.py
    ```
 
