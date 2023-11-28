@@ -7,8 +7,8 @@ This repository contains Python code for building and training a neural network 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/Juan-Fruto/raisin-clasification-nn.git
+   cd raisin-clasification-nn
    ```
 
 2. Install the required dependencies:
@@ -20,7 +20,8 @@ This repository contains Python code for building and training a neural network 
 3. Run the code:
 
    ```bash
-   python your_script.py
+   python transform_dataset.py
+   python main.py
    ```
 
 ## Code Structure 👾
