@@ -3,8 +3,8 @@
 This repository contains Python code for building and training a neural network using TensorFlow and Keras for binary classification. The model is designed to classify data into two classes based on a dataset provided in an Excel file (`Clean_Raisin_Dataset.xlsx`). The code includes data preprocessing, model architecture, training, and visualization of training metrics.
 
 ## Limitations
-- **Algorithmic Complexity:
-   The current implementation of the algorithm for data verification has a time complexity of \(O(n \cdot m)\), where \(n\) is the number of rows and \(m\) is the number of columns in the dataframe.
+- **Algorithmic Complexity:**
+   The current implementation of the algorithm for data verification has a time complexity of `O(n⋅m)`, where `n` is the number of rows and `m` is the number of columns in the dataframe.
    While the current complexity may be acceptable for moderate-sized datasets, it could become a limitation for larger datasets. Contributions to optimize and reduce the algorithmic complexity are welcomed. If you have ideas or improvements to make the code more efficient, feel free to submit a pull request.
 
 ## Usage
@@ -53,5 +53,3 @@ This repository contains Python code for building and training a neural network 
 ## Results
 
 Training results, including loss and accuracy graphs, can be found in the `results` directory. Adjust hyperparameters, model architecture, or dataset as needed for your specific use case.
-
-Feel free to explore, modify, and integrate this code into your projects. If you find it helpful, consider giving it a star!
